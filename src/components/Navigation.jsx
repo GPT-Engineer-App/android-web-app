@@ -15,6 +15,9 @@ function Navigation() {
         <Link as={RouterLink} to="/admin" color="white" fontSize="xl">
           Admin Panel
         </Link>
+        <Link as={RouterLink} to="/abason" color="white" fontSize="xl">
+          Abason
+        </Link>
       </Flex>
     </Box>
   );

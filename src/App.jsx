@@ -2,6 +2,7 @@ import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Index from "./pages/Index.jsx";
 import Listings from "./pages/Listings.jsx";
 import Navigation from "./components/Navigation.jsx";
+import Abason from "./pages/Abason.jsx";
 import AdminPanel from "./pages/AdminPanel.jsx";
 
 function App() {
@@ -33,6 +34,15 @@ function App() {
             <>
               <Navigation />
               <AdminPanel />
+            </>
+          }
+        />
+        <Route
+          path="/abason"
+          element={
+            <>
+              <Navigation />
+              <Abason />
             </>
           }
         />
