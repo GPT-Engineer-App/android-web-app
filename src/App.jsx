@@ -2,6 +2,7 @@ import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Index from "./pages/Index.jsx";
 import Listings from "./pages/Listings.jsx";
 import Navigation from "./components/Navigation.jsx";
+import AdminPanel from "./pages/AdminPanel.jsx";
 
 function App() {
   return (
@@ -23,6 +24,15 @@ function App() {
             <>
               <Navigation />
               <Listings />
+            </>
+          }
+        />
+        <Route
+          path="/admin"
+          element={
+            <>
+              <Navigation />
+              <AdminPanel />
             </>
           }
         />

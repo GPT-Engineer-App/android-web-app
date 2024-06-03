@@ -12,6 +12,9 @@ function Navigation() {
         <Link as={RouterLink} to="/listings" color="white" fontSize="xl">
           Listings
         </Link>
+        <Link as={RouterLink} to="/admin" color="white" fontSize="xl">
+          Admin Panel
+        </Link>
       </Flex>
     </Box>
   );
